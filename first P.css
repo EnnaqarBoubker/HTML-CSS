@@ -1,0 +1,130 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 0;
+}
+ul 
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation */
+
+.menu
+{ 
+    height: 6.5rem;
+    
+}
+.menu .logo
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font: 46px Monospace, sans-serif;
+    background: #000;
+    color: #fff;
+    width: 130px;
+    height: 79px;
+    float: left;
+    text-align: center;
+}
+.menu ul 
+{
+    display: flex;
+    margin-left: 75px;
+}
+.menu ul li
+{
+    padding: 10px;
+    margin: 33px 0px 0px 33px;
+}
+.menu ul li a:hover, .navbar ol li a:hover
+{
+    text-decoration: underline;
+}
+
+/* Breadcrumbs */
+
+.navbar ol
+{
+    list-style: none;
+    display: flex;
+}
+
+/* Titre de la page et introduction */
+
+.the_first
+{
+    max-width: 768px;
+}
+
+/* Carte Produit */
+
+.list
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.list .the_one
+{
+    border: 1px solid #000;
+    width: 215px;
+    text-align: center;
+    height: auto;
+}
+.list .the_one .text
+{
+    width: 204px;
+    height: 190px;
+    background: #00d0ff;
+    padding-top: 90px;
+}
+.list .the_one h4
+{
+    text-align: left;
+    padding-left: 2px;
+}
+.list .the_one .text_2
+{
+    text-align: left;
+    padding: 10px 0;
+}
+.list .the_one .text_2::before
+{
+    content: "RRP:\00A3 18.99";
+    position: absolute;
+    bottom: 12px;
+    font-size: 12px;
+    color: #72a0a2;
+}
+.list .the_one .text_2::after
+{
+    content: "Your saving \00A3 9";
+    position: relative;
+    top: 10px;
+    color: rgb(0, 255, 21);
+    font-size: 12px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
