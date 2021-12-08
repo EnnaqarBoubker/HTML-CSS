@@ -34,6 +34,7 @@ header .logo img
 }
 header .menu ul{
     display: flex;
+    justify-content: center;
     padding: 5px 7px;
     
 }
@@ -48,17 +49,26 @@ header .menu ul li a,
     margin-right: 2px;
 } 
 
+header .menu ul li a:hover,
+.navbar ol li a:hover {
+    color: #fff;
+    background: #000;
+    transition: 0.4s;
+} 
+
 
 .navbar{
     margin: 30px auto ;
 }
 .navbar ol {
     display: flex;
-    margin-left: 52px;
+    justify-content: center;
 }
 .navbar ol li {
     border: none;
 }
+
+
 
 .the_first {
     text-align: center;
