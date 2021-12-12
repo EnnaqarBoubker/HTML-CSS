@@ -8,7 +8,7 @@
     <title>Chri dark</title>
 </head>
 <body>
-    <section class="container">
+    <div class="container">
         <div class="logo">
             <img src="./image/logo.png" alt="">
         </div>
@@ -16,16 +16,16 @@
             <form>
                 <input type="text" name="text" id="city" placeholder="City, Community">
                 <div class="item">
-                    <label>Type de Propriete</label>
+                    <label>Property type</label>
                     <select class="type" name="type">
                         <option value="three">--choose one--</option>
-                        <option value="appartement">Appartement</option>
-                        <option value="maison">Maison</option>
+                        <option value="appartement">apartment</option>
+                        <option value="maison">House</option>
                         <option value="villa">Villa</option>
                     </select>
                 </div>    
                 <div class="item">
-                    <label>Nombre de Chambre</label>
+                    <label>Room number</label>
                     <select class="type" name="nombre">
                         <option value="three">--choose one--</option>
                         <option value="three">3</option>
@@ -37,14 +37,17 @@
                     <input type="text" name="min-prix" class="pric" placeholder="Min-Price">
                     <input type="text" name="max-prix" class="pric" placeholder="Max-Price">
                 </div>
-                <input type="range" name="distance" class="rayon">
+                <div class="rayon">
+                    <label>The search radius</label>
+                    <input type="range" name="distance" class="rayon-one">
+                </div>
                 <div class="text">
                     <input type="checkbox" class="check" name="Type">
                     <label>Solde de vendus</label>
                 </div>
-                <input type="submit" value="Recherche">
+                <input type="submit" value="Research">
             </form>
         </div>
-    </section>
+    </div>
 </body>
 </html>
