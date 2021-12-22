@@ -9,50 +9,56 @@
     <title>Chri dark</title>
 </head>
 <body>
-    <section class="container">
-        <div class="logo">
+    <div class="global">
+       
+        <div class="container">
+            <div class="logo">
+                <img src="./image/logo.png" alt="">
+            </div>
+            <div class="form">
+                <form>
+                    <input type="text" name="text" id="city" placeholder="City, Community">
+                    <div class="item">
+                        <label for="selc">Property type</label>
+                        <select class="type" name="type">
+                            <option value="three">--choose one--</option>
+                            <option value="appartement">apartment</option>
+                            <option value="maison">House</option>
+                            <option value="villa">Villa</option>
+                        </select>
+                    </div>    
+                    <div class="item">
+                        <label for="room">Room number</label>
+                        <select id="room" class="type" name="nombre">
+                            <option value="three">--choose one--</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                        </select>
+                    </div>
+                    <div class="items">
+                        <input type="text" name="min-prix" class="pric" placeholder="Min-Price">
+                        <input type="text" name="max-prix" class="pric" placeholder="Max-Price">
+                    </div>
+                    <div class="rayon">
+                        <label for="num">The search radius</label>
+                        <input id="num" type="range" name="distance" class="rayon-one">
+                    </div>
+                    <div class="text">
+                        <input id="solde" type="checkbox" class="check" name="Type">
+                        <label for="solde">Solde de vendus</label>
+                    </div>
+                   <div class="search">
+                    <input type="submit" value="Research" >
+                   </div>
+                    
+                </form>
+            </div>
+        </div>
+        <!-- <div class="photo">
             <img src="./image/logo.png" alt="">
-        </div>
-        <div class="formulaire">
-            <form>
-                <input type="text" name="text" id="city" placeholder="City, Community">
-                <div class="item">
-                    <label>Property type</label>
-                    <select class="type" name="type">
-                        <option value="three">--choose one--</option>
-                        <option value="appartement">apartment</option>
-                        <option value="maison">House</option>
-                        <option value="villa">Villa</option>
-                    </select>
-                </div>    
-                <div class="item">
-                    <label>Room number</label>
-                    <select class="type" name="nombre">
-                        <option value="three">--choose one--</option>
-                        <option value="three">3</option>
-                        <option value="four">4</option>
-                        <option value="five">5</option>
-                    </select>
-                </div>
-                <div class="items">
-                    <input type="text" name="min-prix" class="pric" placeholder="Min-Price">
-                    <input type="text" name="max-prix" class="pric" placeholder="Max-Price">
-                </div>
-                <div class="rayon">
-                    <label>The search radius</label>
-                    <input type="range" name="distance" class="rayon-one">
-                </div>
-                <div class="text">
-                    <input type="checkbox" class="check" name="Type">
-                    <label>Solde de vendus</label>
-                </div>
-               <div class="search">
-                <input type="submit" value="Research" >
-                <i class="fa fa-search" aria-hidden="true"></i>
-               </div>
-                
-            </form>
-        </div>
-    </section>
+        </div> -->
+    </div>
+    
 </body>
 </html>
